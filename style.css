@@ -1,0 +1,146 @@
+body{
+	background-image: url("images/stars.gif");
+	font-family: "Liberation Serif", serif;
+}
+
+p{
+	text-indent:2em;
+	font-size:1.125em;
+	margin: 0.25em 1em 0.25em 0.25em;
+}
+
+table{
+	width:95%;
+	margin:auto;
+}
+
+td, th{
+	font-size:1.125em;
+	text-align:left;
+	vertical-align:top;
+	padding:0.5em;
+}
+
+ul{
+	margin:0;
+}
+
+.main{
+	margin: auto;
+	padding: 0em 0em 0.25em;
+	max-width: 1200px;
+	background-color: white;
+	--radius: 1em;
+	border-radius: var(--radius);
+}
+
+.main h1{
+	margin: 1em 0.75em 0.75em;
+	font-size: 2em;
+}
+
+.main h1 a{
+	margin: 0em 1em;
+	text-decoration: none;
+	color:black;
+	font-size:0.67em;
+	background-color: lightskyblue;
+	padding:0.5em;
+	border-radius:var(--radius);
+}
+
+.main h1 a:hover{
+	text-decoration: underline;
+}
+
+.heading{
+	background-color:orange;
+	border-radius: var(--radius) var(--radius) 0em 0em;
+	overflow: auto;
+}
+
+.heading h1{
+	font-size:3em;
+}
+
+.navigation{
+	background-color:purple;
+	text-align: center;
+	overflow: auto;
+	padding: 1.5em;
+}
+
+.navigation a{
+	color: white;
+	padding: 1em;
+	text-decoration: none;
+	font-size:1.5em;
+	font-family: "Liberation Sans", sans-serif;
+	font-weight: bold;
+}
+
+.navigation a:hover{
+	background-color: indigo;
+	text-decoration: underline;
+}
+
+.subnav{
+	margin: 0.5em auto;
+	padding:0.5em;
+	max-width:960px;
+	background-color:lightskyblue;
+	border-radius:0.5em;
+	text-align: center;
+}
+
+.subnav a{
+	color: black;
+	padding:0.5em 1.25em;
+	text-decoration: none;
+	font-size:1em;
+	font-family: "Liberation Sans", sans-serif;
+}
+
+.subnav a:hover{
+	text-decoration: underline;
+}
+
+.portfolioHeading{
+	background-color:lightgreen;
+	padding: 0.38em;
+	border-radius:0.5em;
+}
+
+.portfolioEntry{
+	margin:1em;
+	padding:1em;
+	border-radius:var(--radius);
+	background-color:lightgoldenrodyellow;
+	overflow:auto;
+}
+
+.portfolioEntry h2{
+	margin:0.25em;
+	font-size:1.5em;
+}
+
+.portfolioEntry h4{
+	margin:0.5em;
+	font-size:1.25em;
+}
+
+.portfolioEntry img{
+	float: right;
+	max-width:360px;
+	max-height:360px;
+	border-radius:0.5em;
+	margin: 0em 0em 0em 1em;
+}
+
+.center{
+	text-align: center;
+}
+
+.rightAlign{
+	float:right;
+}
