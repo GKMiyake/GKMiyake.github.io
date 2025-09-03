@@ -25,6 +25,14 @@ ul{
 	margin:0;
 }
 
+.button{
+	width: 88px;
+}
+
+.button:hover{
+	width:90px;
+}
+
 .main{
 	margin: auto;
 	padding: 0em 0em 0.25em;
