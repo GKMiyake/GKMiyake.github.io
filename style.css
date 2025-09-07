@@ -71,11 +71,17 @@ ul{
 	font-size:3em;
 }
 
+.heading p{
+	margin-bottom:1em;
+}
+
+
 .navigation{
 	background-color:purple;
 	text-align: center;
 	overflow: auto;
 	padding: 1.5em;
+	border-radius: 0 0 var(--radius) var(--radius);
 }
 
 .navigation a{
